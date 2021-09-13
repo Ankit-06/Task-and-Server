@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*! MAIN CONTAINER */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*! PROGRESS BAR */
+progress {
+  width: 40vw;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+/*! SERVER BOX  */
+.server {
+  width: 70%;
+  height: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/*!server container  */
+.server_container {
+  width: 50%;
+}
+
+/*! Waiting area */
+.waiting_area {
+  width: 30%;
+}
+
+/*! BUTTONS  */
+#addServer,
+#addTask {
+  background-color: #9b59b6;
+  color: white;
+}
+
+button {
+  padding: 3px;
+}
+
+#inputTask {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/*! BUTTON CONTAINER  */
+.button_container {
+  height: 50vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #9b59b6;
+}
+
+/*! My progress Bar  */
+#myProgress {
+  width: 80%;
+  height: 30px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 8%;
+  background-color: white;
+  border: 3px solid #9b59b6;
+  border-radius: 10px;
+}
+
+#myBar {
+  margin: 0px;
+  padding: 0px;
+  width: 2%;
+  height: 100%;
+  background-color: #9b59b6;
+}
+
+#trash {
+  cursor: pointer;
+  margin-left: 2px;
+}
