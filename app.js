@@ -1,7 +1,6 @@
 const serverContainer = document.querySelector(".server_container");
 const inputTask = document.querySelector("#inputTask");
 const waiting = document.querySelector(".waiting_area");
-// const
 
 //! Adding a server box (Add a server button)
 function addServerBox() {
@@ -47,7 +46,7 @@ function addTask() {
       (function () {
         let task = servers[i].firstElementChild.firstElementChild;
         let tempValue = 0;
-        let intervalId = setInterval(executeTask, 10);
+        let intervalId = setInterval(executeTask, 100);
 
         function executeTask() {
           if (tempValue < 100) {
